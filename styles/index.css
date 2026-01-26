@@ -1,5 +1,15 @@
+ @font-face {
+       font-family:lobster-header;
+       src: url(../fonts/Lobster_Two/LobsterTwo-Regular.ttf);
+     }
+     @font-face {
+       font-family:body-font ;
+       src: url(../fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+     }
  body{background-color:burlywood;}
-        #music{font-family:fantasy; font-weight:bold;}
+        #music{font-family:'Times New Roman', Times, serif; font-weight:bold;}
         h1{color: blue;}
-        .menu{font-style: italic;font-family: cursive; color: cyan;}
+        .menu{font-style: italic;font-family: 'Times New Roman', Times, serif; color: cyan;}
         #notice{font-family: initial;font-weight: bold;color: gold;}
+        h1{font-family: lobster-header;}
+        body{font-family:body-font;}
