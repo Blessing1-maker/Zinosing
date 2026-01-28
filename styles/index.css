@@ -48,7 +48,7 @@
  }
 
  a {
-   color: rgb(96, 215, 215)
+   color: rgb(2, 58, 58)
  }
 
  main {
@@ -56,7 +56,7 @@
    margin-left: auto;
    margin-right: auto;
    background-color: rgb(118, 230, 245);
-   padding: 10 10 10 10; border-radius: 20%;
+   padding: 10 10 10 10; border-radius: 20px;
 
  }
 
@@ -65,3 +65,5 @@
    margin-left: auto;
    margin-right: auto
  }
+    #second_list{width:300px;margin-left:50px; list-style:circle; list-style-position:inside}
+    .menu_item{list-style: none; display:inline-block;margin-left:30px;}
