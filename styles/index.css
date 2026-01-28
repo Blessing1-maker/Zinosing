@@ -16,8 +16,9 @@
  .music {
    font-family: 'Times New Roman', Times, serif;
    font-weight: bold;
-   color:rgb(54, 5, 54)
+   color: rgb(54, 5, 54)
  }
+
  .menu {
    font-style: italic;
    font-family: 'Times New Roman', Times, serif;
@@ -41,5 +42,26 @@
  body {
    font-family: body-font;
  }
- h2{color: rgb(93, 53, 130);}
- a{color:rgb(96, 215, 215)}
+
+ h2 {
+   color: rgb(93, 53, 130);
+ }
+
+ a {
+   color: rgb(96, 215, 215)
+ }
+
+ main {
+   width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(118, 230, 245);
+   padding: 10 10 10 10; border-radius: 20%;
+
+ }
+
+ #main_content {
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto
+ }
