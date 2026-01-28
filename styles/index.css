@@ -1,15 +1,45 @@
  @font-face {
-       font-family:lobster-header;
-       src: url(../fonts/Lobster_Two/LobsterTwo-Regular.ttf);
-     }
-     @font-face {
-       font-family:body-font ;
-       src: url(../fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
-     }
- body{background-color:burlywood;}
-        #music{font-family:'Times New Roman', Times, serif; font-weight:bold;}
-        h1{color: blue;}
-        .menu{font-style: italic;font-family: 'Times New Roman', Times, serif; color: cyan;}
-        #notice{font-family: initial;font-weight: bold;color: gold;}
-        h1{font-family: lobster-header;}
-        body{font-family:body-font;}
+   font-family: lobster-header;
+   src: url(../fonts/Lobster_Two/LobsterTwo-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: body-font;
+   src: url(../fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+ }
+
+ body {
+   background-color: burlywood;
+   font-size: 20px;
+ }
+
+ .music {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color:rgb(54, 5, 54)
+ }
+ .menu {
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+ }
+
+ #notice {
+   font-family: initial;
+   font-weight: bold;
+   color: rgb(108, 94, 13);
+   text-align: center;
+   font-size: 40px;
+ }
+
+ h1 {
+   font-family: lobster-header;
+   text-decoration: underline;
+   color: rgb(38, 38, 67);
+ }
+
+ body {
+   font-family: body-font;
+ }
+ h2{color: rgb(93, 53, 130);}
+ a{color:rgb(96, 215, 215)}
